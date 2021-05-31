@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Y8v3QLjyEeuqNt1dOWRvjw">
+  <modelElement href="pruebaAvance.uml#_Xoc90LjyEeuqNt1dOWRvjw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_b2wxULjyEeuqNt1dOWRvjw" sourceAnchor="0.0,88.0" targetAnchor="385.0,92.0" dashed="true" superClass="_b2UscLjyEeuqNt1dOWRvjw" subClass="_b23fALjyEeuqNt1dOWRvjw">
+    <modelElement href="pruebaAvance.uml#_X5-LoLjyEeuqNt1dOWRvjw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_b2UscLjyEeuqNt1dOWRvjw" name="PersonaService" subclassedBy="_b2wxULjyEeuqNt1dOWRvjw">
+    <modelElement href="pruebaAvance.uml#_XtRMYLjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_b2VTgLjyEeuqNt1dOWRvjw" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b2VTgbjyEeuqNt1dOWRvjw" label="+"/>
+    <operations xmi:id="_b2VTgrjyEeuqNt1dOWRvjw" name="agregarContactos">
+      <modelElement href="pruebaAvance.uml#_XtU2wLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTg7jyEeuqNt1dOWRvjw" label="~"/>
+      <cardinality xmi:id="_b2VThLjyEeuqNt1dOWRvjw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_b2VThbjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_XtVd0LjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b2VThrjyEeuqNt1dOWRvjw" name="Contacto">
+          <modelElement href="pruebaAvance.uml#_XrlKULjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b2VTh7jyEeuqNt1dOWRvjw" name="agregarDiagnosticos">
+      <modelElement href="pruebaAvance.uml#_XtZIMLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTiLjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b2VTibjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b2VTirjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X5d1ULjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b2VTi7jyEeuqNt1dOWRvjw" name="Diagnostico">
+          <modelElement href="pruebaAvance.uml#_XsHV0LjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b2VTjLjyEeuqNt1dOWRvjw" name="listPersona">
+      <modelElement href="pruebaAvance.uml#_X6oS8LjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTjbjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b2VTjrjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b2VTj7jyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X6oS8bjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTkLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTkbjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2VTkrjyEeuqNt1dOWRvjw" name="agregarPersona">
+      <modelElement href="pruebaAvance.uml#_X6qvMLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTk7jyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b2VTlLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b2VTlbjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X6rWQLjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b2VTlrjyEeuqNt1dOWRvjw" name="Persona">
+          <modelElement href="pruebaAvance.uml#_Xs71MLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b2VTl7jyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X6qvMbjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTmLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTmbjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2VTmrjyEeuqNt1dOWRvjw" name="persona">
+        <modelElement href="pruebaAvance.uml#_X6qvMrjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTm7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTnLjyEeuqNt1dOWRvjw" name="Persona">
+          <modelElement href="pruebaAvance.uml#_Xs71MLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2VTnbjyEeuqNt1dOWRvjw" name="eliminarPersona">
+      <modelElement href="pruebaAvance.uml#_X6vAoLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTnrjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b2VTn7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b2VToLjyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X6vAobjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTobjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTorjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2VTo7jyEeuqNt1dOWRvjw" name="id">
+        <modelElement href="pruebaAvance.uml#_X6vAorjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTpLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTpbjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2VTprjyEeuqNt1dOWRvjw" name="modificarPersona">
+      <modelElement href="pruebaAvance.uml#_X6xc4LjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTp7jyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b2VTqLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b2VTqbjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X6yrAbjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b2VTqrjyEeuqNt1dOWRvjw" name="Persona">
+          <modelElement href="pruebaAvance.uml#_Xs71MLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b2VTq7jyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X6xc4bjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTrLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTrbjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2VTrrjyEeuqNt1dOWRvjw" name="id">
+        <modelElement href="pruebaAvance.uml#_X6yrALjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTr7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTsLjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2VTsbjyEeuqNt1dOWRvjw" name="siguienteId">
+      <modelElement href="pruebaAvance.uml#_X61uULjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b2VTsrjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b2VTs7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b2VTtLjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X61uUrjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b2VTtbjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b2VTtrjyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X61uUbjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b2VTt7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b2VTuLjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b23fALjyEeuqNt1dOWRvjw" name="PersonaServiceImp" generalizations="_b2wxULjyEeuqNt1dOWRvjw">
+    <modelElement href="pruebaAvance.uml#_XtkHULjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_b24GELjyEeuqNt1dOWRvjw" position="617.0,54.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b24GEbjyEeuqNt1dOWRvjw" label="+"/>
+    <operations xmi:id="_b24GErjyEeuqNt1dOWRvjw" name="agregarContactos">
+      <modelElement href="pruebaAvance.uml#_XtmjkLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GE7jyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GFLjyEeuqNt1dOWRvjw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_b24GFbjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_XtmjkbjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b24GFrjyEeuqNt1dOWRvjw" name="Contacto">
+          <modelElement href="pruebaAvance.uml#_XrlKULjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b24GF7jyEeuqNt1dOWRvjw" name="agregarDiagnosticos">
+      <modelElement href="pruebaAvance.uml#_Xtq1ALjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GGLjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GGbjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b24GGrjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X6An4LjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b24GG7jyEeuqNt1dOWRvjw" name="Diagnostico">
+          <modelElement href="pruebaAvance.uml#_XsHV0LjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b24GHLjyEeuqNt1dOWRvjw" name="listPersona">
+      <modelElement href="pruebaAvance.uml#_X7J3YLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GHbjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GHrjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b24GH7jyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X7J3YbjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GILjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GIbjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b24GIrjyEeuqNt1dOWRvjw" name="agregarPersona">
+      <modelElement href="pruebaAvance.uml#_X7LskbjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GI7jyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GJLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b24GJbjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X7NhwLjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b24GJrjyEeuqNt1dOWRvjw" name="Persona">
+          <modelElement href="pruebaAvance.uml#_Xs71MLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b24GJ7jyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X7M6sLjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GKLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GKbjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b24GKrjyEeuqNt1dOWRvjw" name="persona">
+        <modelElement href="pruebaAvance.uml#_X7M6sbjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GK7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GLLjyEeuqNt1dOWRvjw" name="Persona">
+          <modelElement href="pruebaAvance.uml#_Xs71MLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b24GLbjyEeuqNt1dOWRvjw" name="eliminarPersona">
+      <modelElement href="pruebaAvance.uml#_X7PW8LjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GLrjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GL7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b24GMLjyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X7PW8bjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GMbjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GMrjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b24GM7jyEeuqNt1dOWRvjw" name="id">
+        <modelElement href="pruebaAvance.uml#_X7PW8rjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GNLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GNbjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b24GNrjyEeuqNt1dOWRvjw" name="modificarPersona">
+      <modelElement href="pruebaAvance.uml#_X7RzMLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GN7jyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GOLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b24GObjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X7TBUbjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b24GOrjyEeuqNt1dOWRvjw" name="Persona">
+          <modelElement href="pruebaAvance.uml#_Xs71MLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b24GO7jyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X7RzMbjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GPLjyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GPbjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b24GPrjyEeuqNt1dOWRvjw" name="id">
+        <modelElement href="pruebaAvance.uml#_X7TBULjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GP7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GQLjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b24GQbjyEeuqNt1dOWRvjw" name="siguienteId">
+      <modelElement href="pruebaAvance.uml#_X7U2gLjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GQrjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GQ7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b24GRLjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X7VdkLjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b24GRbjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b24GRrjyEeuqNt1dOWRvjw" name="personas">
+        <modelElement href="pruebaAvance.uml#_X7U2gbjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GR7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GSLjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b24GSbjyEeuqNt1dOWRvjw" name="siguienteIdContactos">
+      <modelElement href="pruebaAvance.uml#_X7WrsbjyEeuqNt1dOWRvjw"/>
+      <visibility xmi:id="_b24GSrjyEeuqNt1dOWRvjw" label="+"/>
+      <cardinality xmi:id="_b24GS7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b24GTLjyEeuqNt1dOWRvjw">
+        <modelElement href="pruebaAvance.uml#_X7XSwbjyEeuqNt1dOWRvjw"/>
+        <type xmi:id="_b24GTbjyEeuqNt1dOWRvjw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b24GTrjyEeuqNt1dOWRvjw" name="contactos">
+        <modelElement href="pruebaAvance.uml#_X7XSwLjyEeuqNt1dOWRvjw"/>
+        <cardinality xmi:id="_b24GT7jyEeuqNt1dOWRvjw" label="1" max="1" min="1"/>
+        <type xmi:id="_b24GULjyEeuqNt1dOWRvjw" name="List">
+          <modelElement href="pruebaAvance.uml#_X5JsQLjyEeuqNt1dOWRvjw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
