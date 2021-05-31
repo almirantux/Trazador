@@ -20,6 +20,7 @@ public class Main {
 		personas.add(persona);
 		
 		int opcion = 0;
+		//inicio del ciclo while
 		while(opcion != 6) {
 			menuPrincipal();
 			
