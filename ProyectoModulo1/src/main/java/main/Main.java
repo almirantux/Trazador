@@ -14,6 +14,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		PersonaServiceImp svc = new PersonaServiceImp();
 		
+		//Lista de personas
 		List<Persona> personas = new ArrayList<Persona>();
 		Persona persona = new Persona();
 		personas.add(persona);
