@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_gXJRQMAOEeuxCIYZjm3tUg">
+  <modelElement href="pruebaAvance.uml#_gQ0m0MAOEeuxCIYZjm3tUg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lTM7kMAOEeuxCIYZjm3tUg" sourceAnchor="398.0,0.0" targetAnchor="253.0,194.0" superClass="_lTsDwMAOEeuxCIYZjm3tUg" subClass="_lRKUMMAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hHV_IMAOEeuxCIYZjm3tUg"/>
+    <bendpoints xmi:id="_k3ryUMAQEeuxCIYZjm3tUg" sourceY="-39" targetX="1091" targetY="49"/>
+    <bendpoints xmi:id="_k3ryUcAQEeuxCIYZjm3tUg" sourceX="-1091" sourceY="-39" targetY="49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lVokgMAOEeuxCIYZjm3tUg" sourceAnchor="1003.0,96.0" targetAnchor="0.0,87.0" target="_lRKUMMAOEeuxCIYZjm3tUg" source="_lXsaAMAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hKDU4MAOEeuxCIYZjm3tUg"/>
+    <stereotypes xmi:id="_lXgMwcAOEeuxCIYZjm3tUg" name="Reference">
+      <modelElement href="pruebaAvance.uml#_hKFKEMAOEeuxCIYZjm3tUg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lXflscAOEeuxCIYZjm3tUg" text="">
+      <visualProperties xmi:id="_mDDEIMAOEeuxCIYZjm3tUg" position="-31.799999999999955,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lXflssAOEeuxCIYZjm3tUg" aggregationKind="NONE" name="">
+      <modelElement href="pruebaAvance.uml#_hKDU4cAOEeuxCIYZjm3tUg"/>
+      <visualProperties xmi:id="_mDCdEcAOEeuxCIYZjm3tUg" position="14.333333333333258,2.5"/>
+      <visibility xmi:id="_lXp9wcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXp9wMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lXgMwMAOEeuxCIYZjm3tUg" aggregationKind="NONE" name="contactos" navigable="true">
+      <modelElement href="pruebaAvance.uml#_hJMZQMAOEeuxCIYZjm3tUg"/>
+      <visualProperties xmi:id="_mDDrMMAOEeuxCIYZjm3tUg" position="-104.0,-46.5"/>
+      <visibility xmi:id="_lXp9w8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXp9wsAOEeuxCIYZjm3tUg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lWUhAMAOEeuxCIYZjm3tUg" sourceAnchor="444.0,0.0" targetAnchor="501.0,213.0" target="_lXsaAMAOEeuxCIYZjm3tUg" source="_lSMO8MAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hJ91UMAOEeuxCIYZjm3tUg"/>
+    <nameVisual xmi:id="_lXe-oMAOEeuxCIYZjm3tUg" text="">
+      <visualProperties xmi:id="_mDB2AMAOEeuxCIYZjm3tUg" position="-12.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lXe-ocAOEeuxCIYZjm3tUg" aggregationKind="NONE" name="diagnostico" navigable="true">
+      <modelElement href="pruebaAvance.uml#_hJNnYMAOEeuxCIYZjm3tUg"/>
+      <visualProperties xmi:id="_mC-yscAOEeuxCIYZjm3tUg" position="-78.5,-74.60000000000002"/>
+      <visibility xmi:id="_lXpWscAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXpWsMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lXflsMAOEeuxCIYZjm3tUg" aggregationKind="NONE" name="">
+      <modelElement href="pruebaAvance.uml#_hJ91UcAOEeuxCIYZjm3tUg"/>
+      <visualProperties xmi:id="_mDCdEMAOEeuxCIYZjm3tUg" position="2.5,29.600000000000023"/>
+      <visibility xmi:id="_lXpWs8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXpWssAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lW6W4MAOEeuxCIYZjm3tUg" sourceAnchor="487.0,0.0" targetAnchor="253.0,194.0" superClass="_lTsDwMAOEeuxCIYZjm3tUg" subClass="_lXsaAMAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hHd68MAOEeuxCIYZjm3tUg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lRKUMMAOEeuxCIYZjm3tUg" name="Contacto" associationsIn="_lVokgMAOEeuxCIYZjm3tUg" generalizations="_lTM7kMAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hD2mQMAOEeuxCIYZjm3tUg"/>
+    <visualProperties xmi:id="_lRKUMcAOEeuxCIYZjm3tUg" position="1234.0,312.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lRKUMsAOEeuxCIYZjm3tUg" label="+"/>
+    <attributes xmi:id="_lRKUM8AOEeuxCIYZjm3tUg" name="correo">
+      <modelElement href="pruebaAvance.uml#_hI6scMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lRKUNMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUNcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lRKUNsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lRKUN8AOEeuxCIYZjm3tUg" name="tipoContacto">
+      <modelElement href="pruebaAvance.uml#_hI76kMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lRKUOMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUOcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lRKUOsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lRKUO8AOEeuxCIYZjm3tUg" name="nexo">
+      <modelElement href="pruebaAvance.uml#_hI8hoMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lRKUPMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUPcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lRKUPsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lRKUP8AOEeuxCIYZjm3tUg" name="Contacto">
+      <modelElement href="pruebaAvance.uml#_hD6QoMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lRKUQMAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lRKUQcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUQsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lRKUQ8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hD8s4MAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lRKURMAOEeuxCIYZjm3tUg" name="Contacto">
+          <modelElement href="pruebaAvance.uml#_hD2mQMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lRKURcAOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hD6QocAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKURsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUR8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUSMAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hD63sMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUScAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUSsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUS8AOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hD63scAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUTMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUTcAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUTsAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hD7ewMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUT8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUUMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUUcAOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hD7ewcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUUsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUU8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUVMAOEeuxCIYZjm3tUg" name="correo">
+        <modelElement href="pruebaAvance.uml#_hD7ewsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUVcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUVsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUV8AOEeuxCIYZjm3tUg" name="tipoContacto">
+        <modelElement href="pruebaAvance.uml#_hD7ew8AOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUWMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUWcAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUWsAOEeuxCIYZjm3tUg" name="nexo">
+        <modelElement href="pruebaAvance.uml#_hD7exMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUW8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUXMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lRKUXcAOEeuxCIYZjm3tUg" name="Contacto">
+      <modelElement href="pruebaAvance.uml#_hD-iEMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lRKUXsAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lRKUX8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUYMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lRKUYcAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hD_wMsAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lRKUYsAOEeuxCIYZjm3tUg" name="Contacto">
+          <modelElement href="pruebaAvance.uml#_hD2mQMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lRKUY8AOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hD-iEcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUZMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUZcAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUZsAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hD-iEsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUZ8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUaMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUacAOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hD_JIMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUasAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUa8AOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUbMAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hD_JIcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUbcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUbsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lRKUb8AOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hD_JIsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lRKUcMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lRKUccAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lRKUcsAOEeuxCIYZjm3tUg" name="Contacto">
+      <modelElement href="pruebaAvance.uml#_hEAXQMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lRKUc8AOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lRKUdMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUdcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lRKUdsAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hECMcMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lRKUd8AOEeuxCIYZjm3tUg" name="Contacto">
+          <modelElement href="pruebaAvance.uml#_hD2mQMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lRKUeMAOEeuxCIYZjm3tUg" name="toString">
+      <modelElement href="pruebaAvance.uml#_hECMccAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_lRKUecAOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hEDakMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lRKUesAOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hEEosMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_lRKUe8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lRKUfMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lRKUfcAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hECzgMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lRKUfsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lSMO8MAOEeuxCIYZjm3tUg" name="Diagnostico" associationsOut="_lWUhAMAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hEeRUMAOEeuxCIYZjm3tUg"/>
+    <visualProperties xmi:id="_lSMO8cAOEeuxCIYZjm3tUg" position="111.0,706.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lSMO8sAOEeuxCIYZjm3tUg" label="+"/>
+    <attributes xmi:id="_lSMO88AOEeuxCIYZjm3tUg" name="previousPCR">
+      <modelElement href="pruebaAvance.uml#_hI9vwMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lSMO9MAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMO9cAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lSMO9sAOEeuxCIYZjm3tUg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lSMO98AOEeuxCIYZjm3tUg" name="duracionSintomas">
+      <modelElement href="pruebaAvance.uml#_hI-W0MAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lSMO-MAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMO-cAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lSMO-sAOEeuxCIYZjm3tUg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lSMO-8AOEeuxCIYZjm3tUg" name="enfermedadStatus">
+      <modelElement href="pruebaAvance.uml#_hI_k8MAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lSMO_MAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMO_cAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lSMO_sAOEeuxCIYZjm3tUg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lSMO_8AOEeuxCIYZjm3tUg" name="sospecha">
+      <modelElement href="pruebaAvance.uml#_hI_k8cAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lSMPAMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMPAcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lSMPAsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lSMPA8AOEeuxCIYZjm3tUg" name="medidas">
+      <modelElement href="pruebaAvance.uml#_hJAMAMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lSMPBMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMPBcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lSMPBsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lSMPB8AOEeuxCIYZjm3tUg" name="Diagnostico">
+      <modelElement href="pruebaAvance.uml#_hEjw4MAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lSMPCMAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lSMPCcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMPCsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lSMPC8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hElmEMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lSMPDMAOEeuxCIYZjm3tUg" name="Diagnostico">
+          <modelElement href="pruebaAvance.uml#_hEeRUMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lSMPDcAOEeuxCIYZjm3tUg" name="previousPCR">
+        <modelElement href="pruebaAvance.uml#_hEjw4cAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lSMPDsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lSMPD8AOEeuxCIYZjm3tUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lSMPEMAOEeuxCIYZjm3tUg" name="duracionSintomas">
+        <modelElement href="pruebaAvance.uml#_hEkX8MAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lSMPEcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lSMPEsAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lSMPE8AOEeuxCIYZjm3tUg" name="enfermedadStatus">
+        <modelElement href="pruebaAvance.uml#_hEkX8cAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lSMPFMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lSMPFcAOEeuxCIYZjm3tUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lSMPFsAOEeuxCIYZjm3tUg" name="sospecha">
+        <modelElement href="pruebaAvance.uml#_hEkX8sAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lSMPF8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lSMPGMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lSMPGcAOEeuxCIYZjm3tUg" name="medidas">
+        <modelElement href="pruebaAvance.uml#_hEk_AMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lSMPGsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lSMPG8AOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lSMPHMAOEeuxCIYZjm3tUg" name="Diagnostico">
+      <modelElement href="pruebaAvance.uml#_hEnbQMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lSMPHcAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lSMPHsAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMPH8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lSMPIMAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hEopYMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lSMPIcAOEeuxCIYZjm3tUg" name="Diagnostico">
+          <modelElement href="pruebaAvance.uml#_hEeRUMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lSMPIsAOEeuxCIYZjm3tUg" name="toString">
+      <modelElement href="pruebaAvance.uml#_hEpQcMAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_lSMPI8AOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hEqekMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lSMPJMAOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hErFoMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_lSMPJcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lSMPJsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lSMPJ8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hEp3gMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lSMPKMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lTsDwMAOEeuxCIYZjm3tUg" name="Persona" subclassedBy="_lTM7kMAOEeuxCIYZjm3tUg _lW6W4MAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hEvXEMAOEeuxCIYZjm3tUg"/>
+    <visualProperties xmi:id="_lTsDwcAOEeuxCIYZjm3tUg" position="288.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lTsDwsAOEeuxCIYZjm3tUg" label="+"/>
+    <attributes xmi:id="_lTsDw8AOEeuxCIYZjm3tUg" name="id">
+      <modelElement href="pruebaAvance.uml#_hJG5sMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lTsDxMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsDxcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lTsDxsAOEeuxCIYZjm3tUg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lTsDx8AOEeuxCIYZjm3tUg" name="rut">
+      <modelElement href="pruebaAvance.uml#_hJHgwMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lTsDyMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsDycAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lTsDysAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lTsDy8AOEeuxCIYZjm3tUg" name="nombre">
+      <modelElement href="pruebaAvance.uml#_hJIH0MAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lTsDzMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsDzcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lTsDzsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lTsDz8AOEeuxCIYZjm3tUg" name="apellido">
+      <modelElement href="pruebaAvance.uml#_hJIH0cAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lTsD0MAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsD0cAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lTsD0sAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lTsD08AOEeuxCIYZjm3tUg" name="edad">
+      <modelElement href="pruebaAvance.uml#_hJJV8MAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lTsD1MAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsD1cAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lTsD1sAOEeuxCIYZjm3tUg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lTsD18AOEeuxCIYZjm3tUg" name="Persona">
+      <modelElement href="pruebaAvance.uml#_hEzogMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lTsD2MAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lTsD2cAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsD2sAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lTsD28AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hE02pMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lTsD3MAOEeuxCIYZjm3tUg" name="Persona">
+          <modelElement href="pruebaAvance.uml#_hEvXEMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lTsD3cAOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hE0PkMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lTsD3sAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lTsD38AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lTsD4MAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hE0PkcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lTsD4cAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lTsD4sAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lTsD48AOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hE0PksAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lTsD5MAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lTsD5cAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lTsD5sAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hE02oMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lTsD58AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lTsD6MAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lTsD6cAOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hE02ocAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lTsD6sAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lTsD68AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lTsD7MAOEeuxCIYZjm3tUg" name="Persona">
+      <modelElement href="pruebaAvance.uml#_hFDgIMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lTsD7cAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lTsD7sAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsD78AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lTsD8MAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFEHMMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lTsD8cAOEeuxCIYZjm3tUg" name="Persona">
+          <modelElement href="pruebaAvance.uml#_hEvXEMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lTsD8sAOEeuxCIYZjm3tUg" name="toString">
+      <modelElement href="pruebaAvance.uml#_hFEuQMAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_lTsD88AOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hFFVUcAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lTsD9MAOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hFF8YMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_lTsD9cAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lTsD9sAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lTsD98AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFFVUMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lTsD-MAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_lZ-R8MAOEeuxCIYZjm3tUg" name="PersonaService">
+    <modelElement href="pruebaAvance.uml#_hFj2cMAOEeuxCIYZjm3tUg"/>
+    <visualProperties xmi:id="_lZ-R8cAOEeuxCIYZjm3tUg" position="11.0,957.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lZ-R8sAOEeuxCIYZjm3tUg" label="+"/>
+    <operations xmi:id="_lZ-R88AOEeuxCIYZjm3tUg" name="agregarContactos">
+      <modelElement href="pruebaAvance.uml#_hFm5wMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ-R9MAOEeuxCIYZjm3tUg" label="~"/>
+      <cardinality xmi:id="_lZ-R9cAOEeuxCIYZjm3tUg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_lZ-R9sAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFng0MAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lZ-R98AOEeuxCIYZjm3tUg" name="Contacto">
+          <modelElement href="pruebaAvance.uml#_hD2mQMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lZ-R-MAOEeuxCIYZjm3tUg" name="agregarDiagnosticos">
+      <modelElement href="pruebaAvance.uml#_hFou8MAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ-R-cAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lZ-R-sAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ-R-8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hHmd0MAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lZ-R_MAOEeuxCIYZjm3tUg" name="Diagnostico">
+          <modelElement href="pruebaAvance.uml#_hEeRUMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lZ-R_cAOEeuxCIYZjm3tUg" name="listPersona">
+      <modelElement href="pruebaAvance.uml#_hIjgEMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ-R_sAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lZ-R_8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lZ_gEMAOEeuxCIYZjm3tUg" name="personas">
+        <modelElement href="pruebaAvance.uml#_hIjgEcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gEcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gEsAOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lZ_gE8AOEeuxCIYZjm3tUg" name="agregarPersona">
+      <modelElement href="pruebaAvance.uml#_hInxgMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ_gFMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lZ_gFcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ_gFsAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hInxg8AOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lZ_gF8AOEeuxCIYZjm3tUg" name="Persona">
+          <modelElement href="pruebaAvance.uml#_hEvXEMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lZ_gGMAOEeuxCIYZjm3tUg" name="personas">
+        <modelElement href="pruebaAvance.uml#_hInxgcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gGcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gGsAOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ_gG8AOEeuxCIYZjm3tUg" name="persona">
+        <modelElement href="pruebaAvance.uml#_hInxgsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gHMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gHcAOEeuxCIYZjm3tUg" name="Persona">
+          <modelElement href="pruebaAvance.uml#_hEvXEMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lZ_gHsAOEeuxCIYZjm3tUg" name="eliminarPersona">
+      <modelElement href="pruebaAvance.uml#_hIsC8MAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ_gH8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lZ_gIMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lZ_gIcAOEeuxCIYZjm3tUg" name="personas">
+        <modelElement href="pruebaAvance.uml#_hIsqAMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gIsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gI8AOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ_gJMAOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hIsqAcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gJcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gJsAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lZ_gJ8AOEeuxCIYZjm3tUg" name="modificarPersona">
+      <modelElement href="pruebaAvance.uml#_hIvGQMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ_gKMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lZ_gKcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ_gKsAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hIvtUMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lZ_gK8AOEeuxCIYZjm3tUg" name="Persona">
+          <modelElement href="pruebaAvance.uml#_hEvXEMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lZ_gLMAOEeuxCIYZjm3tUg" name="personas">
+        <modelElement href="pruebaAvance.uml#_hIvGQcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gLcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gLsAOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ_gL8AOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hIvGQsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gMMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gMcAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lZ_gMsAOEeuxCIYZjm3tUg" name="siguienteId">
+      <modelElement href="pruebaAvance.uml#_hIzXsMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lZ_gM8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lZ_gNMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ_gNcAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hIz-wMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lZ_gNsAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lZ_gN8AOEeuxCIYZjm3tUg" name="personas">
+        <modelElement href="pruebaAvance.uml#_hIzXscAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lZ_gOMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ_gOcAOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_leoIcMAOEeuxCIYZjm3tUg" name="PersonaTest">
+    <modelElement href="pruebaAvance.uml#_hFwDsMAOEeuxCIYZjm3tUg"/>
+    <visualProperties xmi:id="_leoIccAOEeuxCIYZjm3tUg" position="458.0,965.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_leoIcsAOEeuxCIYZjm3tUg" label="+"/>
+    <operations xmi:id="_leoIc8AOEeuxCIYZjm3tUg" name="testOne">
+      <modelElement href="pruebaAvance.uml#_hFx44MAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_leoIdMAOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hFzHAMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_leoIdcAOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hF08MMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_leoIdsAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_leoId8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_leoIeMAOEeuxCIYZjm3tUg" name="testNextIdSameValues">
+      <modelElement href="pruebaAvance.uml#_hF2KUMAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_leoIecAOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hF2xYMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_leoIesAOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hF3YcMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_leoIe8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_leoIfMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_leoIfcAOEeuxCIYZjm3tUg" name="testNextIdNotExistentValues">
+      <modelElement href="pruebaAvance.uml#_hF3_gMAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_leoIfsAOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hF4mkMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_leoIf8AOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hF5NoMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_leoIgMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_leoIgcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lXsaAMAOEeuxCIYZjm3tUg" name="Paciente" associationsIn="_lWUhAMAOEeuxCIYZjm3tUg" associationsOut="_lVokgMAOEeuxCIYZjm3tUg" generalizations="_lW6W4MAOEeuxCIYZjm3tUg">
+    <modelElement href="pruebaAvance.uml#_hFIYoMAOEeuxCIYZjm3tUg"/>
+    <visualProperties xmi:id="_lXsaAcAOEeuxCIYZjm3tUg" position="54.0,303.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lXsaAsAOEeuxCIYZjm3tUg" label="+"/>
+    <attributes xmi:id="_lXsaA8AOEeuxCIYZjm3tUg" name="estado">
+      <modelElement href="pruebaAvance.uml#_hJKkEMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lXsaBMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaBcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lXsaBsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lXsaB8AOEeuxCIYZjm3tUg" name="region">
+      <modelElement href="pruebaAvance.uml#_hJLLIMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lXsaCMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaCcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lXsaCsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lXsaC8AOEeuxCIYZjm3tUg" name="comuna">
+      <modelElement href="pruebaAvance.uml#_hJLyMMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lXsaDMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaDcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lXsaDsAOEeuxCIYZjm3tUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lXsaD8AOEeuxCIYZjm3tUg" name="contactos">
+      <modelElement href="pruebaAvance.uml#_hJMZQMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lXsaEMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaEcAOEeuxCIYZjm3tUg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_lXsaEsAOEeuxCIYZjm3tUg" name="Contacto">
+        <modelElement href="pruebaAvance.uml#_hD2mQMAOEeuxCIYZjm3tUg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lXsaE8AOEeuxCIYZjm3tUg" name="diagnostico">
+      <modelElement href="pruebaAvance.uml#_hJNnYMAOEeuxCIYZjm3tUg"/>
+      <visibility xmi:id="_lXsaFMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaFcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <type xmi:id="_lXsaFsAOEeuxCIYZjm3tUg" name="Diagnostico">
+        <modelElement href="pruebaAvance.uml#_hEeRUMAOEeuxCIYZjm3tUg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lXsaF8AOEeuxCIYZjm3tUg" name="Paciente">
+      <modelElement href="pruebaAvance.uml#_hFQUcMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lXsaGMAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lXsaGcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaGsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lXsaG8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFSJo8AOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lXsaHMAOEeuxCIYZjm3tUg" name="Paciente">
+          <modelElement href="pruebaAvance.uml#_hFIYoMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lXsaHcAOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hFQ7gMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaHsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaH8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaIMAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hFQ7gcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaIcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaIsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaI8AOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hFRikMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaJMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaJcAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaJsAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hFRikcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaJ8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaKMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaKcAOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hFRiksAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaKsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaK8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaLMAOEeuxCIYZjm3tUg" name="estado">
+        <modelElement href="pruebaAvance.uml#_hFRik8AOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaLcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaLsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaL8AOEeuxCIYZjm3tUg" name="region">
+        <modelElement href="pruebaAvance.uml#_hFRilMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaMMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaMcAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaMsAOEeuxCIYZjm3tUg" name="comuna">
+        <modelElement href="pruebaAvance.uml#_hFSJoMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaM8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaNMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lXsaNcAOEeuxCIYZjm3tUg" name="Paciente">
+      <modelElement href="pruebaAvance.uml#_hFT-0MAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lXsaNsAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lXsaN8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaOMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lXsaOcAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFUl48AOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lXsaOsAOEeuxCIYZjm3tUg" name="Paciente">
+          <modelElement href="pruebaAvance.uml#_hFIYoMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lXsaO8AOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hFT-0cAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaPMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaPcAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaPsAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hFT-0sAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaP8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaQMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaQcAOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hFT-08AOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaQsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaQ8AOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaRMAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hFT-1MAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaRcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaRsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaR8AOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hFUl4MAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaSMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaScAOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lXsaSsAOEeuxCIYZjm3tUg" name="Paciente">
+      <modelElement href="pruebaAvance.uml#_hFWbEMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lXsaS8AOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lXsaTMAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaTcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lXsaTsAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFXCIMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lXsaT8AOEeuxCIYZjm3tUg" name="Paciente">
+          <modelElement href="pruebaAvance.uml#_hFIYoMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lXsaUMAOEeuxCIYZjm3tUg" name="toString">
+      <modelElement href="pruebaAvance.uml#_hFXpMMAOEeuxCIYZjm3tUg"/>
+      <stereotypes xmi:id="_lXsaUcAOEeuxCIYZjm3tUg" name="LegacyStyledElement">
+        <modelElement href="pruebaAvance.uml#_hFY3UMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lXsaUsAOEeuxCIYZjm3tUg" name="Annotations">
+        <modelElement href="pruebaAvance.uml#_hFZeYMAOEeuxCIYZjm3tUg"/>
+      </stereotypes>
+      <visibility xmi:id="_lXsaU8AOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaVMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lXsaVcAOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hFYQQMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lXsaVsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lXsaV8AOEeuxCIYZjm3tUg" name="Paciente">
+      <modelElement href="pruebaAvance.uml#_hISaUMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lXsaWMAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lXsaWcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsaWsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lXsaW8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hIU2k8AOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lXsaXMAOEeuxCIYZjm3tUg" name="Paciente">
+          <modelElement href="pruebaAvance.uml#_hFIYoMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lXsaXcAOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hISaUcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaXsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaX8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaYMAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hITBYMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaYcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaYsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaY8AOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hITBYcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaZMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaZcAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaZsAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hITocMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaZ8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaaMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaacAOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hIToccAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaasAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaa8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsabMAOEeuxCIYZjm3tUg" name="estado">
+        <modelElement href="pruebaAvance.uml#_hIUPgMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsabcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsabsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsab8AOEeuxCIYZjm3tUg" name="region">
+        <modelElement href="pruebaAvance.uml#_hIUPgcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsacMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaccAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsacsAOEeuxCIYZjm3tUg" name="comuna">
+        <modelElement href="pruebaAvance.uml#_hIUPgsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsac8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsadMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsadcAOEeuxCIYZjm3tUg" name="contactos">
+        <modelElement href="pruebaAvance.uml#_hIUPg8AOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsadsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsad8AOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaeMAOEeuxCIYZjm3tUg" name="diagnostico">
+        <modelElement href="pruebaAvance.uml#_hIU2kMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaecAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaesAOEeuxCIYZjm3tUg" name="Diagnostico">
+          <modelElement href="pruebaAvance.uml#_hEeRUMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lXsae8AOEeuxCIYZjm3tUg" name="Paciente">
+      <modelElement href="pruebaAvance.uml#_hIa9MMAOEeuxCIYZjm3tUg"/>
+      <keywords xmi:id="_lXsafMAOEeuxCIYZjm3tUg" keyword="create"/>
+      <visibility xmi:id="_lXsafcAOEeuxCIYZjm3tUg" label="+"/>
+      <cardinality xmi:id="_lXsafsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lXsaf8AOEeuxCIYZjm3tUg">
+        <modelElement href="pruebaAvance.uml#_hIdZcMAOEeuxCIYZjm3tUg"/>
+        <type xmi:id="_lXsagMAOEeuxCIYZjm3tUg" name="Paciente">
+          <modelElement href="pruebaAvance.uml#_hFIYoMAOEeuxCIYZjm3tUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lXsagcAOEeuxCIYZjm3tUg" name="id">
+        <modelElement href="pruebaAvance.uml#_hIa9McAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsagsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsag8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsahMAOEeuxCIYZjm3tUg" name="rut">
+        <modelElement href="pruebaAvance.uml#_hIbkQMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsahcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsahsAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsah8AOEeuxCIYZjm3tUg" name="nombre">
+        <modelElement href="pruebaAvance.uml#_hIbkQcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsaiMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaicAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsaisAOEeuxCIYZjm3tUg" name="apellido">
+        <modelElement href="pruebaAvance.uml#_hIcLUMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsai8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsajMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsajcAOEeuxCIYZjm3tUg" name="edad">
+        <modelElement href="pruebaAvance.uml#_hIcLUcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsajsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaj8AOEeuxCIYZjm3tUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsakMAOEeuxCIYZjm3tUg" name="estado">
+        <modelElement href="pruebaAvance.uml#_hIcLUsAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsakcAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsaksAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsak8AOEeuxCIYZjm3tUg" name="region">
+        <modelElement href="pruebaAvance.uml#_hIcLU8AOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsalMAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsalcAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsalsAOEeuxCIYZjm3tUg" name="comuna">
+        <modelElement href="pruebaAvance.uml#_hIcyYMAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsal8AOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsamMAOEeuxCIYZjm3tUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lXsamcAOEeuxCIYZjm3tUg" name="contactos">
+        <modelElement href="pruebaAvance.uml#_hIcyYcAOEeuxCIYZjm3tUg"/>
+        <cardinality xmi:id="_lXsamsAOEeuxCIYZjm3tUg" label="1" max="1" min="1"/>
+        <type xmi:id="_lXsam8AOEeuxCIYZjm3tUg" name="List">
+          <modelElement href="pruebaAvance.uml#_hHLnEcAOEeuxCIYZjm3tUg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
