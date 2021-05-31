@@ -13,26 +13,30 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		PersonaServiceImp svc = new PersonaServiceImp();
-		
 		List<Persona> personas = new ArrayList<Persona>();
-		Persona persona = new Persona();
-		personas.add(persona);
+		// Inicialización de Scanner, clase servicio y listado de personas.
+//		System.out.println(personas.size());
+//		System.out.println("Siguiente" + svc.siguienteId(personas));
+//		Persona persona = new Persona();
+//		personas.add(persona);
+
+		
+		
 		
 		int opcion = 0;
+		System.out.println("Bienvenido/a a Traza COVID\nSelecciona una de las siguientes opciones:"
+				+ "\n------------------------------------------");
 		while(opcion != 6) {
 			menuPrincipal();
 			
 			opcion = sc.nextInt();
 			if (opcion == 1) {
-				System.out.println("Ruta 1");
-				System.out.println("Ingrese id: ");
-				int id = sc.nextInt(); //blablabla
+//				System.out.println("Ruta 1");
+				svc.agregarPersona(personas);
 			}
 			else if (opcion == 2) {
-				System.out.println("Ruta 2");
-				System.out.println("Se presentarán los datos: ");
+//				System.out.println("Ruta 2");
 				svc.listPersona(personas);
-				svc.siguienteId(personas);
 			}
 		}
 		
