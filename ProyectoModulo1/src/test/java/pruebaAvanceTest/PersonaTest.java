@@ -7,16 +7,16 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import model.Persona;
+import model.Paciente;
 import utils.PersonaServiceImp;
 
 public class PersonaTest {
 	
 	@Test
 	public void testOne() {
-		Persona sujetoOne = new Persona();
-		Persona sujetoTwo = new Persona(0, "a", "name", "lastname", 21);
-		List<Persona> personas = new ArrayList<Persona>(Arrays.asList(sujetoOne,sujetoTwo));
+		Paciente sujetoOne = new Paciente();
+		Paciente sujetoTwo = new Paciente(0, "a", "name", "lastname", 21);
+		List<Paciente> personas = new ArrayList<Paciente>(Arrays.asList(sujetoOne,sujetoTwo));
 		Assert.assertEquals(2, personas.size());
 		
 	}
@@ -24,9 +24,9 @@ public class PersonaTest {
 	@Test
 	public void testNextIdSameValues() {
 		PersonaServiceImp svc = new PersonaServiceImp();
-		Persona sujetoOne = new Persona();
-		Persona sujetoTwo = new Persona(0, "a", "name", "lastname", 21);
-		List<Persona> personas = new ArrayList<Persona>(Arrays.asList(sujetoOne,sujetoTwo));
+		Paciente sujetoOne = new Paciente();
+		Paciente sujetoTwo = new Paciente(0, "a", "name", "lastname", 21);
+		List<Paciente> personas = new ArrayList<Paciente>(Arrays.asList(sujetoOne,sujetoTwo));
 		System.out.println("size:" + personas.size());
 		System.out.println();
 		Assert.assertEquals(2, svc.siguienteId(personas));
@@ -35,9 +35,9 @@ public class PersonaTest {
 	@Test
 	public void testNextIdNotExistentValues() {
 		PersonaServiceImp svc = new PersonaServiceImp();
-		Persona sujetoOne = new Persona();
-		Persona sujetoTwo = new Persona(10, "a", "name", "lastname", 21);
-		List<Persona> personas = new ArrayList<Persona>(Arrays.asList(sujetoOne,sujetoTwo));
+		Paciente sujetoOne = new Paciente();
+		Paciente sujetoTwo = new Paciente(10, "a", "name", "lastname", 21);
+		List<Paciente> personas = new ArrayList<Paciente>(Arrays.asList(sujetoOne,sujetoTwo));
 		System.out.println("size:" + personas.size());
 		System.out.println();
 		Assert.assertEquals(11, svc.siguienteId(personas));

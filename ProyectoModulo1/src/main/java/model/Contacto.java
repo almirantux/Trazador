@@ -42,7 +42,7 @@ public class Contacto extends Persona {
 	}
 	@Override
 	public String toString() {
-		return "Contacto [correo=" + correo + ", tipoContacto=" + tipoContacto + ", nexo=" + nexo + "]";
+		return "Contacto [rut=" + super.getRut() + ", nombre= " +super.getNombre() +", apellido= " + super.getApellido() + ", edad=" + super.getEdad() + ", correo=" + correo + ", tipoContacto=" + tipoContacto + ", nexo=" + nexo + "]";
 	}
 	
 	
