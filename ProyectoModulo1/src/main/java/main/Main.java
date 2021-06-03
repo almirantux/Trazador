@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import model.*;
-import utils.PersonaService;
 import utils.PersonaServiceImp;
 
 public class Main {
@@ -13,64 +12,84 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		PersonaServiceImp svc = new PersonaServiceImp();
+		List<Paciente> pacientes = new ArrayList<Paciente>();
+		// Inicialización de Scanner, clase servicio y listado de personas.
+//		System.out.println(personas.size());
+//		System.out.println("Siguiente" + svc.siguienteId(personas));
+		Paciente paciente = new Paciente();
+		pacientes.add(paciente);
+
 		
-		//Lista de personas
-		List<Persona> personas = new ArrayList<Persona>();
-		Persona persona = new Persona();
-		personas.add(persona);
+		
 		
 		int opcion = 0;
-		//inicio del ciclo while
-		while(opcion != 6) {
+		System.out.println("Bienvenido/a a Traza COVID\nSelecciona una de las siguientes opciones: ");
+		while(opcion != 8) {
 			menuPrincipal();
 			
 			opcion = sc.nextInt();
 			if (opcion == 1) {
-				System.out.println("Ruta 1");
-				System.out.println("Ingrese id: ");
-				int id = sc.nextInt(); //blablabla
+				svc.agregarPersona(pacientes);
 			}
 			else if (opcion == 2) {
-				System.out.println("Ruta 2");
-				System.out.println("Se presentarán los datos: ");
-				svc.listPersona(personas);
-				svc.siguienteId(personas);
+				svc.listPersona(pacientes);
+			}
+			else if (opcion == 3) {
+				System.out.print("Ingrese id: ");
+				svc.getOne(pacientes, sc.nextInt());
+			}
+			else if (opcion == 4) {
+				System.out.print("Ingrese id: ");
+				svc.eliminarPersona(pacientes, sc.nextInt());
+			}
+			else if (opcion == 5) {
+				System.out.print("Ingrese id: ");
+				svc.modificarPersona(pacientes, sc.nextInt());
+			}
+			else if (opcion == 6) {
+				System.out.println("Implementar");
+			}
+			else if (opcion == 7) {
+				System.out.println("Implementar");
 			}
 		}
+		System.out.println("Fin del programa");
 		
 
 
 	}
 	
 	public static void menuPrincipal() {
-		String menu = "1) Registro de pacientes\r\n" + 
-				"2) Listar datos \r\n" + 
-				"3) Editar datos paciente\r\n" + 
-				"4) Trazabilidad general\r\n" + 
-				"5) Generación de certificado \r\n" +
-				"6) Salir \r\n";
-		System.out.println(menu);
+		String menu = "______________________________________\n"+"|1) Registro de pacientes             |\r\n" + 
+				"|2) Listar todos los datos            |\r\n" + 
+				"|3) Obtener datos paciente datos      |\r\n" + 
+				"|4) Eliminar paciente                 |\r\n" + 
+				"|5) Editar datos paciente             |\r\n" + 
+				"|6) Trazabilidad general              |\r\n" + 
+				"|7) Generación de certificado         |\r\n" +
+				"|8) Salir                             |" + "\n|_____________________________________|\n\nOpcion: ";
+		System.out.print(menu);
 	}
-	public static Paciente crearPaciente(int id, String rut, String nombre, String apellido, int edad, String estado, String region, String comuna, List<Contacto> contactos, Diagnostico diagnostico) {
-		Paciente paciente = new Paciente();
-		paciente.setId(id);
-		paciente.setRut(rut);
-		paciente.setNombre(nombre);
-		paciente.setApellido(apellido);
-		paciente.setEdad(edad);
-		paciente.setEstado(estado);
-		paciente.setRegion(region);
-		paciente.setComuna(comuna);
-		paciente.setContactos(contactos);
-		paciente.setDiagnostico(diagnostico);
-		System.out.println("Se ha creado el paciente: " + paciente.toString());
-		return paciente;
-	}
-	public static void listar(List<Persona> personas) {
-		for (int i = 0; i< personas.size(); i++) {
-			System.out.println(personas.get(i).toString());
-		}
-	}
+//	public static Paciente crearPaciente(int id, String rut, String nombre, String apellido, int edad, String estado, String region, String comuna, List<Contacto> contactos, Diagnostico diagnostico) {
+//		Paciente paciente = new Paciente();
+//		paciente.setId(id);
+//		paciente.setRut(rut);
+//		paciente.setNombre(nombre);
+//		paciente.setApellido(apellido);
+//		paciente.setEdad(edad);
+//		paciente.setEstado(estado);
+//		paciente.setRegion(region);
+//		paciente.setComuna(comuna);
+//		paciente.setContactos(contactos);
+//		paciente.setDiagnostico(diagnostico);
+//		System.out.println("Se ha creado el paciente: " + paciente.toString());
+//		return paciente;
+//	}
+//	public static void listar(List<Persona> personas) {
+//		for (int i = 0; i< personas.size(); i++) {
+//			System.out.println(personas.get(i).toString());
+//		}
+//	}
 }
 //objetivo general, específicos, procesos, más de un rol
 //alcance del proyecto, 'que se espera lograr'.

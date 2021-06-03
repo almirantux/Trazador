@@ -90,8 +90,10 @@ public class Paciente extends Persona {
 
 	@Override
 	public String toString() {
-		return "Paciente [estado=" + estado + ", region=" + region + ", comuna=" + comuna + ", contactos=" + contactos
-				+ ", diagnostico=" + diagnostico + "]";
+		return "Paciente [id= " + super.getId() + ", rut=" + super.getRut() + ", nombre=" + super.getNombre() + 
+				", apellido=" + super.getApellido() + ", edad=" + super.getEdad() +  ", estado=" + estado + ", region=" + region +
+				", comuna=" + comuna + ", contactos=" + contactos
+				+ ", diagnostico=" + diagnostico + super.getId() + "]";
 	}
 	
 	

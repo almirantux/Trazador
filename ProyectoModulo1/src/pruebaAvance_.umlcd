@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Y3gK4LjyEeuqNt1dOWRvjw">
+  <modelElement href="pruebaAvance.uml#_W_NMgLjyEeuqNt1dOWRvjw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aA7RELjyEeuqNt1dOWRvjw" name="java">
+    <modelElement href="pruebaAvance.uml#_XoQwkLjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aA74ILjyEeuqNt1dOWRvjw" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aCeJMLjyEeuqNt1dOWRvjw" name="model">
+    <modelElement href="pruebaAvance.uml#_XoVpELjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aCeJMbjyEeuqNt1dOWRvjw" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aCglcLjyEeuqNt1dOWRvjw" name="utils">
+    <modelElement href="pruebaAvance.uml#_Xoc90LjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aCglcbjyEeuqNt1dOWRvjw" position="200.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aCjBsLjyEeuqNt1dOWRvjw" name="main">
+    <modelElement href="pruebaAvance.uml#_XouqoLjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aCjBsbjyEeuqNt1dOWRvjw" position="350.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aCk24LjyEeuqNt1dOWRvjw" name="com">
+    <modelElement href="pruebaAvance.uml#_XqC5QLjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aCk24bjyEeuqNt1dOWRvjw" position="-280.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aCnTILjyEeuqNt1dOWRvjw" name="org">
+    <modelElement href="pruebaAvance.uml#_XqJm8LjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aCnTIbjyEeuqNt1dOWRvjw" position="500.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aCpIULjyEeuqNt1dOWRvjw" name="pruebaAvanceTest">
+    <modelElement href="pruebaAvance.uml#_XqMqQLjyEeuqNt1dOWRvjw"/>
+    <visualProperties xmi:id="_aCpvYLjyEeuqNt1dOWRvjw" position="-483.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
