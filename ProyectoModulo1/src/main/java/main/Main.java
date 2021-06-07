@@ -1,15 +1,16 @@
 package main;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 import model.*;
-import utils.PersonaServiceImp;
+import service.PersonaServiceImp;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		PersonaServiceImp svc = new PersonaServiceImp();
 		List<Paciente> pacientes = new ArrayList<Paciente>();
@@ -47,10 +48,11 @@ public class Main {
 				svc.modificarPersona(pacientes, sc.nextInt());
 			}
 			else if (opcion == 6) {
-				System.out.println("Implementar");
+				System.out.println("Implementar (tomar todos los datos)");
 			}
 			else if (opcion == 7) {
-				System.out.println("Implementar");
+				System.out.print("Ingrese id: ");
+				svc.getQRData(pacientes, sc.nextInt());
 			}
 		}
 		System.out.println("Fin del programa");
@@ -62,7 +64,7 @@ public class Main {
 	public static void menuPrincipal() {
 		String menu = "______________________________________\n"+"|1) Registro de pacientes             |\r\n" + 
 				"|2) Listar todos los datos            |\r\n" + 
-				"|3) Obtener datos paciente datos      |\r\n" + 
+				"|3) Obtener datos paciente dados      |\r\n" + 
 				"|4) Eliminar paciente                 |\r\n" + 
 				"|5) Editar datos paciente             |\r\n" + 
 				"|6) Trazabilidad general              |\r\n" + 
