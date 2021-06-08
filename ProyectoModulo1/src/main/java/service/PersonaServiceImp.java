@@ -21,6 +21,7 @@ import net.glxn.qrgen.javase.QRCode;
 
 public class PersonaServiceImp implements PersonaService {
 
+	
 	public void listPersona(List<Paciente> pacientes) {
 		// comentar en cuanto no sea explicable
 
@@ -35,7 +36,9 @@ public class PersonaServiceImp implements PersonaService {
 	}
 
 	public Paciente agregarPersona(List<Paciente> pacientes) {
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
+		@SuppressWarnings("resource")
 		Scanner numberScan = new Scanner(System.in);
 		Paciente paciente = new Paciente();
 		int id = siguienteId(pacientes);
@@ -80,6 +83,7 @@ public class PersonaServiceImp implements PersonaService {
 	}
 
 	public List<Contacto> agregarContactos() {
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		List<Contacto> contactos = new ArrayList<Contacto>();
 		String opcion = "I";
@@ -136,7 +140,9 @@ public class PersonaServiceImp implements PersonaService {
 	}
 
 	public void modificarPersona(List<Paciente> pacientes, int id) {
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
+		@SuppressWarnings("resource")
 		Scanner numberScan = new Scanner(System.in);
 		for (int i = 0; i < pacientes.size(); i++) {
 			if (pacientes.get(i).getId() == id) {
@@ -236,6 +242,7 @@ public class PersonaServiceImp implements PersonaService {
 	}
 
 	public Diagnostico agregarDiagnosticos() {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		Diagnostico diag = new Diagnostico();
 		String respuesta = "I";
@@ -307,7 +314,7 @@ public class PersonaServiceImp implements PersonaService {
 		Date date = new Date();
 		File copy = new File("src/main/resources/" + dateFormat.format(date) + ".png");
 		String status = null;
-		String medidasText = null;
+		
 
 		String textToQR = "";
 
@@ -333,7 +340,7 @@ public class PersonaServiceImp implements PersonaService {
 		}
 		else  {
 			status = paciente.getDiagnostico().getSospecha();
-			medidasText = paciente.getDiagnostico().getMedidas();
+			
 			textToQR = ("A la fecha " + dateFormat.format(date) + ", el/la paciente " + paciente.getNombre() + " " + paciente.getApellido() + ", se encuentra en estado: "
 					+ status + ".\nSe recomiendan las siguientes medidas: " + paciente.getDiagnostico().getMedidas());
 			if (paciente.getContactos()==null) {

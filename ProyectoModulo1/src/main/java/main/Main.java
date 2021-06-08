@@ -11,6 +11,7 @@ import service.PersonaServiceImp;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		PersonaServiceImp svc = new PersonaServiceImp();
 		List<Paciente> pacientes = new ArrayList<Paciente>();
@@ -55,6 +56,7 @@ public class Main {
 				svc.getQRData(pacientes, sc.nextInt());
 			}
 		}
+		
 		System.out.println("Fin del programa");
 		
 
